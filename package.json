@@ -1,0 +1,23 @@
+{
+  "name": "sprint1-practice",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "mocha ./test/*.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Ecommerce is the buying and selling of products on the internet. The products that are sold on any e-commerce website are the core of the business. Consumers add products to their shopping carts, pay the amount online and buy the products. Sometimes, at the check-out, a consumer may delete a product from the cart, update the count of the products, etc. The application should be able to handle all the consumer requirements to give them a good shopping experience.",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.15",
+    "mocha": "^9.1.3",
+    "chai": "^4.1.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
+}
